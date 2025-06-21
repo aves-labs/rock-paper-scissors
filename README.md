@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🪨📄✂️ Python Rock Paper Scissors
 
 Two clean implementations of the classic game:
