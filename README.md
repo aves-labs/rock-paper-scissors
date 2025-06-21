@@ -1,18 +1,23 @@
-# Rock Paper Scissors - Python Terminal Game
+cat << 'EOF' > README.md
+# 🪨📄✂️ Python Rock Paper Scissors
 
-This is a simple command-line Rock, Paper, Scissors game built with Python. It includes basic score tracking (wins, losses, ties) and a typewriter-style text display for improved user experience.
+Two clean implementations of the classic game:
 
-## Features
+## 🎮 Versions
+| Version | Description | Run Command |
+|---------|-------------|-------------|
+| **[Original](versions/rock_paper_scissors.py)** | Simple terminal game with typewriter effect | `python3 versions/rock_paper_scissors.py` |
+| **[Enhanced](versions/rock_paper_scissors_v2.py)** | Improved input handling and game flow | `python3 versions/rock_paper_scissors_v2.py` |
 
-- Clean terminal interface
-- Typewriter effect using `time.sleep()`
-- Real-time score tracking
-- Supports both short (`r`, `p`, `s`, `q`) and full commands (`rock`, `paper`, `scissor`, `quit`)
-- Randomized computer moves
+## ✨ Features
+- Typewriter-style text printing
+- Score tracking (Wins/Losses/Ties)
+- Simple controls (r/p/s/q)
+- No dependencies
 
-## How to Run
-
-Make sure you have Python 3 installed.
-
+## 🚀 Quick Start
 ```bash
-python3 rock_paper_scissors.py
+# Clone and play
+git clone https://github.com/ovi-AI/rock-paper-scissors.git
+cd rock-paper-scissors
+python3 versions/rock_paper_scissors_v2.py
