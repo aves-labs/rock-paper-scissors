@@ -17,6 +17,6 @@ Two clean implementations of the classic game:
 ## 🚀 Quick Start
 ```bash
 # Clone and play
-git clone https://github.com/ovi-AI/rock-paper-scissors.git
+git clone https://github.com/aves-labs/rock-paper-scissors.git
 cd rock-paper-scissors
 python3 versions/rock_paper_scissors_v2.py
